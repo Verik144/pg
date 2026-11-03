@@ -3,7 +3,9 @@ def cislo_text(cislo):
     # napr: "25" -> "dvacet pět", omezte se na cisla od 0 do 100
 
     jednotky = ["nula", "jedna", "dva", "tři", "čtyři", "pět", "šest", "sedm", "osm", "devět"]
+
     nactky = ["deset", "jedenáct", "dvanáct", "třináct", "čtrnáct", "patnáct", "šestnáct", "sedmnáct", "osmnáct", "devatenáct"]
+    
     desitky = [" ", " ", "dvacet", "třicet", "čtyřicet", "padesát", "šedesát", "sedmdesát", "osmdesát", "devadesát"]
 
     if cislo < 0 or cislo > 100:
