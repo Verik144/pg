@@ -36,6 +36,7 @@ def je_tah_mozny(figurka, cilova_pozice, obsazene_pozice):
         
     elif typ == "jezdec":
         # Jezdec se pohybuje ve tvaru L (např. rozdíl řádků je 2 a sloupců 1, nebo naopak).
+        
         rozdil_radku = abs(cilova_pozice[0] - aktualni_pozice[0])
         rozdil_sloupcu = abs(cilova_pozice[1] - aktualni_pozice[1])
 
